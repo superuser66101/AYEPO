@@ -1,0 +1,24 @@
+$bg-image: url(/dist/img/1st-Anniversary.jpg);
+
+ // buttons
+ .btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: $main-color;
+  text-decoration: none;
+}
+ .btn:hover {
+   background: $primary-color;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+
+ ul, li {
+   list-style: none;
+ }

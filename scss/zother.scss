@@ -1,0 +1,60 @@
+// Search Bar
+
+.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background: #ccc;
+  }
+}
+
+// Navbar
+#main-nav {
+  
+  padding: 1rem 0 2rem 2rem;
+
+  #logo {
+    width: 140px;
+    height: 70px;
+  } 
+  
+  a,
+  li {
+    font-weight: 600;
+    text-decoration: none;
+    color: $dark-color;
+    text-transform: uppercase;
+      border-bottom: 3px transparent solid;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s;
+      &:hover {
+        cursor: pointer;
+        border-color: $medium-color;
+        color: $primary-color;
+      }
+    
+      &.current {
+        border-color: $primary-color;
+        color: $primary-color;
+      }
+  } 
+  
+  li {
+    padding: 1rem 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+   li ul {
+    display: none;
+    position: absolute;
+  }
+}
